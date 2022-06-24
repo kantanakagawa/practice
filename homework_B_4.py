@@ -29,5 +29,6 @@ def main():
     f_acerage = sum(f_temperature) / len(f_temperature)
     print(f_acerage)
 
-    if __name__ == "__main__":
-        main()
+
+if __name__ == "__main__":
+    main()

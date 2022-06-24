@@ -4,10 +4,7 @@ y = int(input("列数を入力してください:"))
 for n in range(1, x + 1):
     for s in range(1, y + 1):
 
-        if (s * n) < 10:
-            print(end=" ")
-
-        print("{} x {} = {}".format(s, n, s * n), end=" | ")
+        print("{} x {} = {:2d}".format(s, n, s * n), end=" | ")
     print()
 
 
