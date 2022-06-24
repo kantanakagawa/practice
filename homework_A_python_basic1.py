@@ -18,11 +18,8 @@ for number in odd_numbers:
     print(number)
 
 even_numbers = [2, 4, 6, 8]  # A-7
-twice_numbers = []
-for even_number in even_numbers:
-    twice_numbers.append(int(even_number) * 2)
-
-print(twice_numbers)
+for even_number in range(0, len(even_numbers)):
+    print(f"{even_numbers[even_number]*2}", end="")
 
 users_info = [["Bob", 79], ["Tom", 59], ["Ken", 61]]  # A-8
 print("Name:" + users_info[0][0] + ",Age:" + str(users_info[0][1]))
