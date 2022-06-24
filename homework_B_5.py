@@ -35,9 +35,8 @@ def average():
     return average
 
 
-# function
 if __name__ == "__main__":
-    # リスト
+
     numbers = input(("データを入力してください(スペース区切り) > ")).split()
 
     print(f"合計値： {sum()}")
